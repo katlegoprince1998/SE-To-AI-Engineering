@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Engineer Roadmap 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .phase {
+            margin-bottom: 40px;
+            border-left: 4px solid #667eea;
+            padding-left: 25px;
+        }
+        
+        .phase-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .phase-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        
+        .phase-title {
+            flex: 1;
+        }
+        
+        .phase-title h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        
+        .phase-duration {
+            background: #f0f0f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            color: #667eea;
+            font-size: 0.9em;
+        }
+        
+        .topic {
+            background: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border-left: 3px solid #764ba2;
+        }
+        
+        .topic h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .topic-duration {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .subtopics {
+            margin: 10px 0;
+        }
+        
+        .subtopics li {
+            margin: 5px 0;
+            color: #555;
+        }
+        
+        .project {
+            background: #e3f2fd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 3px solid #2196f3;
+        }
+        
+        .project h4 {
+            color: #1976d2;
+            margin-bottom: 5px;
+        }
+        
+        .resources {
+            background: #fff3e0;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        
+        .resources h4 {
+            color: #f57c00;
+            margin-bottom: 10px;
+        }
+        
+        .resources ul {
+            margin-left: 20px;
+        }
+        
+        .resources li {
+            margin: 5px 0;
+            color: #555;
+        }
+        
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            border: none;
+            font-size: 1.1em;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: transform 0.2s;
+        }
+        
+        .download-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .timeline-note {
+            background: #fff9c4;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            border-left: 4px solid #fbc02d;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .download-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 AI Engineer Roadmap 2026</h1>
+            <p>A comprehensive 12-month journey to becoming an AI Engineer</p>
+        </div>
+        
+        <div class="content">
+            <div class="timeline-note">
+                <strong>📅 Timeline:</strong> This roadmap is designed for 12 months of focused learning (January - December 2026). Adjust pacing based on your background and available time. Dedicate 15-20 hours per week for optimal progress.
+            </div>
+            
+            <!-- PHASE 1 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">1</div>
+                    <div class="phase-title">
+                        <h2>Programming Foundations</h2>
+                        <span class="phase-duration">January - February (8 weeks)</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Python Programming</h3>
+                    <div class="topic-duration">⏱️ January - February</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Syntax, data structures (lists, dicts, sets, tuples)</li>
+                            <li>Object-oriented programming</li>
+                            <li>File handling and exception handling</li>
+                            <li>Iterators, generators, decorators</li>
+                            <li>Virtual environments and package management</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Personal Finance Tracker</h4>
+                        <p>Build a CLI application to track expenses, generate reports, and visualize spending patterns using Python.</p>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>Python.org Official Tutorial</li>
+                            <li>Automate the Boring Stuff with Python (Book)</li>
+                            <li>Real Python tutorials</li>
+                            <li>Corey Schafer's Python YouTube series</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PHASE 2 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">2</div>
+                    <div class="phase-title">
+                        <h2>Mathematics & Statistics</h2>
+                        <span class="phase-duration">March - April (8 weeks)</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Linear Algebra</h3>
+                    <div class="topic-duration">⏱️ March (4 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Vectors, matrices, and matrix operations</li>
+                            <li>Eigenvalues and eigenvectors</li>
+                            <li>Matrix decomposition (SVD, PCA)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>3Blue1Brown: Essence of Linear Algebra (YouTube)</li>
+                            <li>MIT OpenCourseWare: Linear Algebra</li>
+                            <li>Khan Academy: Linear Algebra</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Calculus & Statistics</h3>
+                    <div class="topic-duration">⏱️ April (4 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Derivatives, gradients, chain rule</li>
+                            <li>Probability distributions</li>
+                            <li>Hypothesis testing, confidence intervals</li>
+                            <li>Bayes' theorem</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Statistical Analysis Dashboard</h4>
+                        <p>Create a tool that performs statistical analysis on datasets (mean, median, std dev, distributions, hypothesis testing) with visualizations.</p>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>Khan Academy: Calculus & Statistics</li>
+                            <li>StatQuest YouTube channel</li>
+                            <li>Think Stats (Book)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PHASE 3 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">3</div>
+                    <div class="phase-title">
+                        <h2>Data Science Fundamentals</h2>
+                        <span class="phase-duration">May - June (8 weeks)</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>NumPy & Pandas</h3>
+                    <div class="topic-duration">⏱️ May (3 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>NumPy arrays and operations</li>
+                            <li>Pandas DataFrames and Series</li>
+                            <li>Data cleaning and preprocessing</li>
+                            <li>Groupby, pivot tables, merging datasets</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Data Visualization</h3>
+                    <div class="topic-duration">⏱️ Late May - Early June (2 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Matplotlib and Seaborn</li>
+                            <li>Plotly for interactive visualizations</li>
+                            <li>Best practices in data visualization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>SQL & Databases</h3>
+                    <div class="topic-duration">⏱️ Late June (3 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>SQL queries (SELECT, JOIN, GROUP BY)</li>
+                            <li>Database design principles</li>
+                            <li>PostgreSQL or MySQL</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: COVID-19 Data Analysis</h4>
+                        <p>Analyze COVID-19 datasets, create visualizations showing trends, and build an interactive dashboard using Plotly/Dash.</p>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>Python Data Science Handbook (Jake VanderPlas)</li>
+                            <li>Kaggle Learn: Pandas, Data Visualization</li>
+                            <li>Mode Analytics SQL Tutorial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PHASE 4 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">4</div>
+                    <div class="phase-title">
+                        <h2>Machine Learning Fundamentals</h2>
+                        <span class="phase-duration">July - August (8 weeks)</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Classical ML Algorithms</h3>
+                    <div class="topic-duration">⏱️ July - Early August (5 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Linear/Logistic Regression</li>
+                            <li>Decision Trees and Random Forests</li>
+                            <li>Support Vector Machines (SVM)</li>
+                            <li>K-Nearest Neighbors (KNN)</li>
+                            <li>Naive Bayes</li>
+                            <li>Clustering (K-Means, DBSCAN)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Scikit-learn & Model Evaluation</h3>
+                    <div class="topic-duration">⏱️ Late August (3 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Train-test split, cross-validation</li>
+                            <li>Feature engineering and selection</li>
+                            <li>Hyperparameter tuning (Grid Search, Random Search)</li>
+                            <li>Evaluation metrics (Accuracy, Precision, Recall, F1, ROC-AUC)</li>
+                            <li>Overfitting vs underfitting</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: House Price Prediction</h4>
+                        <p>Build a regression model to predict house prices using Kaggle's housing dataset. Perform feature engineering, model selection, and hyperparameter tuning.</p>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Customer Churn Prediction</h4>
+                        <p>Create a classification model to predict customer churn. Compare multiple algorithms and optimize for best performance.</p>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>Andrew Ng's Machine Learning Course (Coursera)</li>
+                            <li>Hands-On Machine Learning (Aurélien Géron)</li>
+                            <li>Scikit-learn documentation</li>
+                            <li>StatQuest ML playlist (YouTube)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PHASE 5 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">5</div>
+                    <div class="phase-title">
+                        <h2>Deep Learning</h2>
+                        <span class="phase-duration">September - October (8 weeks)</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Neural Networks Fundamentals</h3>
+                    <div class="topic-duration">⏱️ September (4 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Perceptrons and activation functions</li>
+                            <li>Backpropagation and gradient descent</li>
+                            <li>Loss functions and optimization (SGD, Adam, RMSProp)</li>
+                            <li>Regularization techniques (Dropout, L1/L2)</li>
+                            <li>Batch normalization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>PyTorch or TensorFlow</h3>
+                    <div class="topic-duration">⏱️ October (4 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Tensors and computational graphs</li>
+                            <li>Building neural networks</li>
+                            <li>Training loops and model evaluation</li>
+                            <li>Saving and loading models</li>
+                            <li>GPU acceleration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: MNIST Digit Classifier</h4>
+                        <p>Build a neural network from scratch to classify handwritten digits. Experiment with different architectures and hyperparameters.</p>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Sentiment Analysis</h4>
+                        <p>Create a deep learning model to classify movie reviews as positive or negative using neural networks.</p>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>Deep Learning Specialization (Andrew Ng - Coursera)</li>
+                            <li>Fast.ai Practical Deep Learning course</li>
+                            <li>Deep Learning with Python (François Chollet)</li>
+                            <li>PyTorch official tutorials</li>
+                            <li>3Blue1Brown: Neural Networks (YouTube)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- PHASE 6 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">6</div>
+                    <div class="phase-title">
+                        <h2>Advanced Deep Learning</h2>
+                        <span class="phase-duration">November - December (8 weeks)</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Computer Vision (CNNs)</h3>
+                    <div class="topic-duration">⏱️ November (3 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Convolutional Neural Networks (CNNs)</li>
+                            <li>Popular architectures (ResNet, VGG, EfficientNet)</li>
+                            <li>Transfer learning and fine-tuning</li>
+                            <li>Image augmentation techniques</li>
+                            <li>Object detection (YOLO, R-CNN)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Image Classification System</h4>
+                        <p>Build a CNN to classify images (e.g., dog breeds, plant diseases). Use transfer learning with a pre-trained model.</p>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Natural Language Processing (NLP)</h3>
+                    <div class="topic-duration">⏱️ Late November - Early December (3 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Text preprocessing and tokenization</li>
+                            <li>Word embeddings (Word2Vec, GloVe)</li>
+                            <li>Recurrent Neural Networks (RNNs, LSTMs)</li>
+                            <li>Transformers and attention mechanisms</li>
+                            <li>BERT, GPT architectures</li>
+                            <li>Hugging Face Transformers library</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Text Generation Bot</h4>
+                        <p>Build a text generation model using transformers. Fine-tune a pre-trained model on custom data.</p>
+                    </div>
+                    
+                    <div class="project">
+                        <h4>🎯 Project: Question Answering System</h4>
+                        <p>Create a QA system using BERT that can answer questions based on context paragraphs.</p>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>MLOps Basics</h3>
+                    <div class="topic-duration">⏱️ Late December (2 weeks)</div>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Model versioning and experiment tracking (MLflow, Weights & Biases)</li>
+                            <li>Docker basics for containerization</li>
+                            <li>Model deployment (Flask, FastAPI)</li>
+                            <li>CI/CD for ML pipelines</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>CS231n: Convolutional Neural Networks (Stanford)</li>
+                            <li>CS224n: Natural Language Processing (Stanford)</li>
+                            <li>Hugging Face Course</li>
+                            <li>Full Stack Deep Learning course</li>
+                            <li>Made With ML (MLOps)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- BONUS SECTION -->
+            <div class="phase">
+                <div class="phase-header">
+                    <div class="phase-number">+</div>
+                    <div class="phase-title">
+                        <h2>Continuous Learning & Specialization</h2>
+                        <span class="phase-duration">Ongoing</span>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Advanced Topics to Explore</h3>
+                    <div class="subtopics">
+                        <ul>
+                            <li><strong>Reinforcement Learning:</strong> Q-Learning, Policy Gradients, OpenAI Gym</li>
+                            <li><strong>Generative AI:</strong> GANs, VAEs, Diffusion Models, Stable Diffusion</li>
+                            <li><strong>Large Language Models:</strong> Fine-tuning LLMs, RAG systems, LangChain</li>
+                            <li><strong>Graph Neural Networks:</strong> Node classification, link prediction</li>
+                            <li><strong>Time Series:</strong> Forecasting with LSTMs, Prophet</li>
+                            <li><strong>Edge AI:</strong> TensorFlow Lite, ONNX, model optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="topic">
+                    <h3>Portfolio & Career Development</h3>
+                    <div class="subtopics">
+                        <ul>
+                            <li>Build a strong GitHub portfolio with 5-10 quality projects</li>
+                            <li>Write technical blog posts about your learning journey</li>
+                            <li>Participate in Kaggle competitions</li>
+                            <li>Contribute to open-source AI projects</li>
+                            <li>Network on LinkedIn and attend AI meetups/conferences</li>
+                            <li>Practice coding interviews (LeetCode, HackerRank)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="resources">
+                        <h4>📚 Resources:</h4>
+                        <ul>
+                            <li>Kaggle competitions and datasets</li>
+                            <li>Papers With Code</li>
+                            <li>ArXiv for latest research papers</li>
+                            <li>AI conferences: NeurIPS, ICML, CVPR</li>
+                            <li>Towards Data Science (Medium)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="timeline-note">
+                <strong>💡 Pro Tips:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Document everything you learn in a personal wiki or blog</li>
+                    <li>Focus on understanding concepts deeply rather than rushing through topics</li>
+                    <li>Build projects throughout—practical application solidifies learning</li>
+                    <li>Join AI communities (Reddit r/MachineLearning, Discord servers)</li>
+                    <li>Stay updated with latest AI developments through newsletters and podcasts</li>
+                    <li>Don't skip mathematics—it's crucial for understanding how models work</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <button class="download-btn" onclick="window.print()">📄 Download PDF</button>
+    
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

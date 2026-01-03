@@ -1,0 +1,12 @@
+title: SE → AI Engineering
+description: Learning in public — my journey from Software Engineering to AI Engineering
+author: Katlego Mashego
+email: katlegomashego37@gmail.com
+
+theme: minima
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+show_excerpts: true
