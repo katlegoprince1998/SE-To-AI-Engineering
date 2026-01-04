@@ -1,0 +1,5 @@
+Hello, World!
+My name is Katlego mashego.
+I am learning Python file handling.
+I hope to become proficient in it soon.
+Thank you!
