@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "amount": 45.5,
+    "category": "Food",
+    "description": "Lunch at cafe",
+    "date": "2026-01-05",
+    "timestamp": "2026-01-05T22:20:32.919802"
+  },
+  {
+    "id": 2,
+    "amount": 120.0,
+    "category": "Bills",
+    "description": "Electric bill",
+    "date": "2024-01-15",
+    "timestamp": "2026-01-05T22:21:25.919446"
+  }
+]
